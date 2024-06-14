@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veterinary</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-  
+
+  <!-- HEADER START -->
+  <header class="w-full max-w-[1440px] bg-white ">
+
+    <!-- HEADER TOP START -->
+    <div class="flex justify-between items-center  bg-[#F9F8F8] shadow-sm pt-[11px] pb-[9px]">
+
+      <div class="flex items-center justify-between pl-60 ">
+        <address
+          class="font-medium not-italic text-sm flex items-center justify-between text-primary  gap-[9px] before:w-[14px] before:h-[13px] before:bg-[url('../images/home-icon.svg')] ">
+          г. Мариуполь, проспект Победы, 48а
+        </address>
+      </div>
+
+      <div class="flex justify-between items-center gap-[9px]">
+
+        <div
+          class="flex justify-between items-center pt-[11px] pb-[9px] gap-[9px] before:w-[13px] before:h-[13px] before:bg-[url('../images/phone-icon.svg')]">
+          <a class="font-medium text-sm text-primary " href="0676347574">(067)634-75-74</a>
+        </div>
+
+        <div
+          class="flex items-center pt-[11px] pb-[9px] gap-[9px] before:w-[13px] before:h-[13px] before:bg-[url('../images/circle-icon.svg')] before:bg-no-repeat before:bg-center">
+          <a class="font-medium text-sm text-primary" href="0637570131">(0637) 57 - 01 - 31</a>
+        </div>
+
+        <div
+          class="flex items-center pt-[11px] pb-[9px] gap-[9px] before:w-[13px] before:h-[13px] before:bg-[url('../images/circle-icon.svg')] before:bg-no-repeat before:bg-center">
+          <a class="font-medium text-sm text-primary" href="0982664389">(098) 266 - 43 - 89</a>
+        </div>
+
+      </div>
+      <div
+        class="flex justify-between items-center pt-[11px] pb-[9px] gap-[7px] before:w-[14px] before:h-[15px] before:bg-[url('../images/schedule-icon.svg')] before:bg-no-repeat before:bg-center">
+
+        <span class="font-medium  text-sm text-primary ">Пн - Пт</span>
+
+        <span class="font-normal  text-sm text-primary">8:00 - 18:00</span>
+
+        <span class="font-medium text-sm text-primary   ">Сб - Вс </span>
+
+        <span class="font-normal  text-sm text-primary">8:00 - 14:00</span>
+
+      </div>
+    </div>
+
+    <!-- HEADER TOP END -->
+
+    <!-- HEADER BOTTOM START -->
+
+    <div class="flex justify-between items-center shadow-sm ">
+      <div class="pl-[65px] mt-[-17px] ">
+        <a class=" " href="./index.html">
+          <img class="" src="./images/logo.svg" width="177" height="86" alt="Vet logo img">
+        </a>
+      </div>
+      <nav class=" flex  items-center justify-between gap-[55px] ">
+       
+        <a class="font-medium text-sm text-primary flex items-center justify-center gap-3 py-5 before:bg-hidden  before:w-[21px] before:h-[22px] before:bg-[url('../images/fish-icon.svg')] before:bg-no-repeat before:bg-center "
+          href="#"> Главная</a>
+        <a class="font-medium text-sm text-primary " href="#">О Клинике</a>
+
+        <a class="font-medium text-sm text-primary" href="#">Наши Услуги</a>
+
+        <a class="font-medium text-sm text-primary" href="#">Полезные Статьи</a>
+
+        <a class="font-medium text-sm text-primary" href="#">FAQ</a>
+
+        <a class="font-medium text-sm text-primary" href="#">Контакты</a>
+      </nav>
+      <div class="flex justify-between items-center   gap-3 py-5   before:w-[21px] before:h-[22px] before:bg-[url('../images/pet-icon.svg')] before:bg-no-repeat before:bg-center">
+        <button role="button" class="font-medium text-sm text-primary ">
+          Задать вопрос
+        </button>
+      </div>
+    </div>
+
+    <!-- HEADER BOTTOM END  -->
+  </header>
+  <!-- HEADER END  -->
+
+  <main class="bg-[url('../images/bg.png')] ">
+    <section
+      class="min-h-screen bg-[url('../images/hero-bg.png'),url('../images/hero-right-bg.png')] bg-no-repeat bg-[position:-180px_-180px,1200px_350px]">
+      <div class=" w-full max-w-[608px] ml-[735px]">
+        <h1 class=" pt-[146px]">
+          <span class="font-bold text-[70px] text-primary">Мы заботимся о</span>
+          <span class="font-bold text-[70px] text-secondary ">ваших питомцах!</span>
+        </h1>
+        <p class="font-medium text-sm text-[#949494] mb-[38px]">Вам и Вашему любимцу множество услуг по диагностике,
+          профилактике заболеваний по лечению и уходу за Вашими
+          животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и
+          максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+        <button class="w-[181px] h-[50px] rounded-lg bg-[#333333] text-white mb-[238px]">Наши услуги</button>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
